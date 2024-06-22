@@ -1,0 +1,155 @@
+body{
+    background-color: pink;
+}
+nav{
+    background-color: rgb(108, 89, 89);
+    width: 100%;
+    padding-right: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;   
+    top: 0px;
+}
+nav{
+    z-index: 1;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-right: 10px;
+    width: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a:hover{
+    background-color: chocolate;
+    transition: 1s;
+    color: Black;
+}
+nav img{
+    margin-right: auto;
+}
+
+
+.product-container{
+    width: 780px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: skyblue;
+}
+
+.row{
+    display: flex;
+    gap: 15px;
+}
+.product-image{
+  width: 400px;
+}
+.product-image img{
+    width: 400px;
+    object-fit: fill;
+}
+.product-details{
+    width: 400px;
+}
+.promo-code{
+    width: 300px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    border: 2px solid pink;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    font-family: "merienda", cursive;
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.related-product{
+    width: 180px;
+    background-color: pink;
+    padding: 15px;
+    border: 2px solid black;
+}
+.related-product img{
+    width: 100%;
+    object-fit: cover;
+}
+.related-product-name{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+.related-product:hover .related-product-name{
+    visibility: visible;
+}
+.Goli{
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.product-container img{
+    width: 100%;
+}
+.Goli .caption{
+    background-color: pink;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    visibility: hidden;
+    opacity: 0.8;
+}
+.Goli:hover .caption{
+    visibility: visible;
+}
+.team-member{
+    width: 200px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.team-member img{
+    width: 100%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.team-member .team-member-name{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(250, 208, 228);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
